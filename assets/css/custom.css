@@ -1,0 +1,40 @@
+
+body{
+    
+}
+
+.login-section{
+
+    background: url("../img/login-bg.png") no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+.container{
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
+.logo{
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+
+}
+.renny{
+    color: #fff !important;
+    background-color: #e65100  !important;
+}
+.btnprimary{
+    background-color: #000 !important;
+}
+
+.line{
+    width: 90% !important;
+
+    height: 20px !important;
+    border-bottom: 2px solid black;
+    }
