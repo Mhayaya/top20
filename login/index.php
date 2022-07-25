@@ -8,7 +8,7 @@
         </div>
         <div class="col s4">
             
-            <div class="card white darken-1">
+            <div class="card white darken-1 logincard">
                 <h3 style="margin-top: 40px !important; padding-top: 40px !important;" class="center">Login</h3>
                 <div class="card-content black-text">
                 <div class="row">

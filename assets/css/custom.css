@@ -40,6 +40,7 @@ body{
 .renny{
     color:  #000 !important;
     background-color: #ffc400  !important;
+    border-radius: 10px !important;
 }
 .btnprimary{
     background-color: #000 !important;
@@ -50,4 +51,10 @@ body{
 
     height: 20px !important;
     border-bottom: 2px solid black;
+    }
+    
+    .logincard{
+        margin-left: 80px !important;
+         margin-right: 80px !important; 
+         border-radius: 10px !important;
     }
