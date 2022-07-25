@@ -1,6 +1,19 @@
 
 body{
+
     
+}
+.Create-section{
+    background-color: #f8c1c3 !important;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  
+
 }
 
 .login-section{
@@ -25,8 +38,8 @@ body{
 
 }
 .renny{
-    color: #fff !important;
-    background-color: #e65100  !important;
+    color:  #000 !important;
+    background-color: #ffc400  !important;
 }
 .btnprimary{
     background-color: #000 !important;

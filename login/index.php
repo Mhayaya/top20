@@ -1,6 +1,5 @@
 <?php include("../includes/header.php"); ?>
 
-
 <div class="login-section">
     <div class="row">
 
@@ -35,7 +34,7 @@
                                     </button>
                                     <br>
                                     <br>
-                                    <div><span class="center">Have No Account?<a href="../register/"> Create</a></span></div>
+                                    <div><span class="center">Have No Account?<a href="../Create/"> Create</a></span></div>
 
                                 </div>
                             </div>

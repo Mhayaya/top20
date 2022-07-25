@@ -22,7 +22,9 @@
                         <li><a href="../battle/">Top Battle</a></li>
                         <li><a href="../h2h/">Head to Head</a></li>
                         <li><a href="../login/" class="waves-effect waves-light btn btnprimary"><i class="material-icons left">lock</i>Login</a></li>
+
                     </ul>
+                    
             </div>
         </nav>
 
