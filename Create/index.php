@@ -8,7 +8,7 @@
         <div class="col s4">
             
             <div class="card white darken-1 logincard">
-                <h3 style="margin-top: 40px !important; padding-top: 40px !important;" class="center">Login</h3>
+                <h5 style="margin-top: 40px !important; padding-top: 40px !important;" class="center">register</h5>
                 <div class="card-content black-text">
                 <div class="row">
                     <form class="col s12">
@@ -38,12 +38,7 @@
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
-      </div>
-          <div class="input-field inline">
-            <input id="email_inline" type="email" class="validate">
-            <label for="email_inline">Email</label>
-            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-          </div>
+           </div>
           <div class="row">
                                 <div class="col s12 center">
                                     <br>
@@ -51,6 +46,10 @@
                                     <button class="btn waves-effect waves-light center renny" type="submit" name="action">Submit
                                         <i class="material-icons right">comfrim</i>
                                     </button>
+                                    <br>
+                                    <br>
+                                    <div><span class="center">Have Account<a href="../login/"> login</a></span></div>
+
         </div>
       </div>
     </form>
