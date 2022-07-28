@@ -3,10 +3,11 @@
 <div class="login-section">
     <div class="row">
 
-        <div class="col s4">
+        <div class="col s12 m4 l4">
             <!-- Promo Content 1 goes here -->
         </div>
-        <div class="col s4">
+
+        <div class="col s12 m4 l4">
             
             <div class="card white darken-1 logincard">
                 <h3 style="margin-top: 40px !important; padding-top: 40px !important;" class="center">Login</h3>
@@ -25,6 +26,7 @@
                             <label for="icon_telephone">Password</label>
                             </div>
                             <a href="../forgetpass/">  <span class="badge renny" style="margin-right: 30px !important; font: size 20px; ">Forget Password?</span></a>
+                           
                             <div class="row">
                                 <div class="col s12 center">
                                     <br>
@@ -78,7 +80,8 @@
             </div>
 
         </div>
-        <div class="col s4">
+
+        <div class="col s12 m4 l4">
             <!-- Promo Content 3 goes here -->
         </div>
 
