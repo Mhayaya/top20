@@ -44,6 +44,7 @@
                             <div><span class="center">Have Account<a href="../login/"> login</a></span>
                             </div>
 
+                            <div id="error" style="color: red !important; font-size: 20px; font-weight: bold; margin-top: 20px;"></div>
                             </div>
                           </div>
                     </form>

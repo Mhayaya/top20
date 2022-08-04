@@ -11,6 +11,15 @@ if(isset($_POST['name'])){
 
     $status = "2";
 
+ $sql = "SELECT id, email, username FROM user WHERE email = '$email' OR username= '$username'";
+ $result = mysqli_query($mysqli, $sql);
+ $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+ $email1 = $row["email"];
+ $username1 = ["username"];
+ 
+ $count = mysqli_num_rows($result);
+
+ if($count == 0){
     $sql = "INSERT INTO user (name, email, username, password, status) VALUES ('$name', '$email', '$username','$hashed','$status')";
     
     if($mysqli->query($sql) === true){
@@ -18,12 +27,19 @@ if(isset($_POST['name'])){
         header("location: ../dashboard/");
         }else{
             echo 'unsuccess';
-            header("location: ../create/?error='Failed to Create New Account please try again!'");
+            header("location: ../create/?error=Failed to Create New Account please try again!");
 
             exit();
         }
+ }else{
+    header("location: ../create/?error=Failed to Create New Account This user already exist!");
+    exit();
+ }
+ }
 
-}
+   
+
+
 
 
 ?>
